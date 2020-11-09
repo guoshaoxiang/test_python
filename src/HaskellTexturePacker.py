@@ -2,7 +2,7 @@ import os, sys
 
 folderName = 'battle_original'
 imagedir = 'E:\\SeafileSync\\Seafile\\Haskell\\UI\\atlas\\1024\\'
-outplistdir = 'E:\\haskell_texture\\1024\\'
+outplistdir = 'E:\\haskell_texture\\2048\\'
 texturePackerCmd = 'E:\\TexturePacker\\bin\\TexturePacker.exe'
 ktxCmd = 'npx egret-texture-generator --t E:\haskell_texture\TexturePacker -q high --pf canvasalpha --pbpp 4'
 
@@ -19,9 +19,11 @@ def packerFoler(dir, outputDir):
                      " --format egret-spritesheet" + \
                      " --data " + outputDir + s + ".json" + \
                      " --sheet " + outputDir + s + ".png" + \
-                     " --max-size 1024 --opt BGRA8888 --size-constraints POT" + \
+                     " --max-size 2048 --opt BGRA8888 --size-constraints POT" + \
                      " --force-squared" +\
-                     " --dpi 300" +\
+                     " --force-word-aligned" +\
+                     " --reduce-border-artifacts" +\
+                     " --dpi 72" +\
                      " " + \
                      newDir
 
