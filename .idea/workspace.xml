@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="147c6f83-edfe-48e4-8c9b-ba9e061bec50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HaskellTexturePacker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/HaskellTexturePacker.py" afterDir="false" />
     </list>
@@ -59,20 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HaskellTexturePacker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="462">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TexturePackerMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="16" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -124,9 +123,9 @@
         <option value="$PROJECT_DIR$/src/read_skeleton.py" />
         <option value="$PROJECT_DIR$/src/filterExmlImage.py" />
         <option value="$PROJECT_DIR$/src/filterExml.py" />
-        <option value="$PROJECT_DIR$/src/TexturePackerMap.py" />
         <option value="$PROJECT_DIR$/src/texture-compressor.py" />
         <option value="$PROJECT_DIR$/src/HaskellTexturePacker.py" />
+        <option value="$PROJECT_DIR$/src/TexturePackerMap.py" />
       </list>
     </option>
   </component>
@@ -318,6 +317,14 @@
       <option name="presentableId" value="Default" />
       <updated>1558440310272</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1604919697894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604919697894</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -334,7 +341,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -342,6 +349,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/__init__.py">
@@ -466,17 +477,17 @@
     <entry file="file://$PROJECT_DIR$/src/alpha.pgm">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TexturePackerMap.py">
+    <entry file="file://$PROJECT_DIR$/src/HaskellTexturePacker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="16" selection-start-line="4" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="462">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HaskellTexturePacker.py">
+    <entry file="file://$PROJECT_DIR$/src/TexturePackerMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="330">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>

@@ -13,7 +13,7 @@ def packerFoler(dir, outputDir):
                  " --format egret-spritesheet" + \
                  " --data " + outputDir + s + ".json" + \
                  " --sheet " + outputDir + s + ".png" + \
-                 " --max-size 1024 --opt BGRA8888 --size-constraints POT" + \
+                 " --max-size 1024 --opt RGBA8888 --size-constraints POT" + \
                  " --force-squared" + \
                  " --scale 0.5" + \
                  " " + \
