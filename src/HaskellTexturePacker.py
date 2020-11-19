@@ -1,18 +1,17 @@
 import os, sys
 
-folderName = 'battle_original'
-imagedir = 'E:\\SeafileSync\\Seafile\\Haskell\\UI\\atlas\\1024\\'
-outplistdir = 'E:\\haskell_texture\\2048\\'
+imagedir = 'E:\\SeafileSync\\Seafile\\Haskell\\UI\\atlas_banshu\\1024\\'
+outplistdir = 'E:\\haskell_texture\\banshu\\'
 texturePackerCmd = 'E:\\TexturePacker\\bin\\TexturePacker.exe'
 ktxCmd = 'npx egret-texture-generator --t E:\haskell_texture\TexturePacker -q high --pf canvasalpha --pbpp 4'
-
+# extrude
 def packerFoler(dir, outputDir):
     for s in os.listdir(dir):
         # 如果需要忽略某些文件夹，使用以下代码
         if s == "icon":
             packerFoler(os.path.join(dir, s), outputDir+"icon\\")
             continue
-        if s != "1024" and s != "window_ui":
+        if s != "window_ui":
             newDir = os.path.join(dir, s)
             print(newDir)
             cmdTmp = texturePackerCmd + \
@@ -24,6 +23,7 @@ def packerFoler(dir, outputDir):
                      " --force-word-aligned" +\
                      " --reduce-border-artifacts" +\
                      " --dpi 72" +\
+                     " --extrude 4" +\
                      " " + \
                      newDir
 
