@@ -1,7 +1,7 @@
 import os, sys
 
-imagedir = 'E:\\SeafileSync\\Seafile\\Haskell\\UI\\atlas_banshu\\1024\\'
-outplistdir = 'E:\\haskell_texture\\banshu\\'
+imagedir = 'E:\\SeafileSync\\Seafile\\Haskell\\UI\\atlas\\1024\\'
+outplistdir = 'E:\\haskell_texture\\2048\\'
 texturePackerCmd = 'E:\\TexturePacker\\bin\\TexturePacker.exe'
 ktxCmd = 'npx egret-texture-generator --t E:\haskell_texture\TexturePacker -q high --pf canvasalpha --pbpp 4'
 # extrude
@@ -23,7 +23,7 @@ def packerFoler(dir, outputDir):
                      " --force-word-aligned" +\
                      " --reduce-border-artifacts" +\
                      " --dpi 72" +\
-                     " --extrude 4" +\
+                     " --extrude 2" +\
                      " " + \
                      newDir
 
